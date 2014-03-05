@@ -25,6 +25,11 @@
 				<artifactId>org.restlet.ext.simple</artifactId>
 				<version>${restlet.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.restlet.jse</groupId>
+				<artifactId>org.restlet.example</artifactId>
+				<version>${restlet.version}</version>
+			</dependency>
 			<!-- 日志组件 -->
 			<dependency>
 				<groupId>org.slf4j</groupId>

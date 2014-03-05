@@ -24,6 +24,16 @@
 			<groupId>org.restlet.jse</groupId>
 			<artifactId>org.restlet</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.restlet.jse</groupId>
+			<artifactId>org.restlet.example</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.code.guice</groupId>
+					<artifactId>guice</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
 		<!-- 日志组件 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
