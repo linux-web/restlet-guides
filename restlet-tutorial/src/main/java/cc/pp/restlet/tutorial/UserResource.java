@@ -3,6 +3,8 @@ package cc.pp.restlet.tutorial;
 import org.restlet.resource.Get;
 import org.restlet.resource.ServerResource;
 
+import cc.pp.restlet.tutorial.domain.User;
+
 public class UserResource extends ServerResource {
 
 	String userName;
@@ -15,10 +17,13 @@ public class UserResource extends ServerResource {
 		this.user = null;
 	}
 
-	@Override
 	@Get
-	public String toString() {
-		return "用户的帐号为：" + this.userName;
+	public Object getData() {
+		//		return "用户的帐号为：" + this.userName;
+		User user = new User();
+		user.setId(123);
+		user.setName("wgybzb");
+		return user;
 	}
 
 }
