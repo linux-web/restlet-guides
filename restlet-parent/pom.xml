@@ -65,6 +65,27 @@
 				<artifactId>org.restlet.ext.slf4j</artifactId>
 				<version>${restlet.version}</version>
 			</dependency>
+			<!-- JEE -->
+			<dependency>
+				<groupId>org.restlet.jee</groupId>
+				<artifactId>org.restlet</artifactId>
+				<version>${restlet.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.restlet.jee</groupId>
+				<artifactId>org.restlet.ext.jaxrs</artifactId>
+				<version>${restlet.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.restlet.jee</groupId>
+				<artifactId>org.restlet.ext.json</artifactId>
+				<version>${restlet.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.restlet.jee</groupId>
+				<artifactId>org.restlet.ext.servlet</artifactId>
+				<version>${restlet.version}</version>
+			</dependency>
 			<!-- 日志组件 -->
 			<dependency>
 				<groupId>org.slf4j</groupId>

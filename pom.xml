@@ -10,6 +10,7 @@
 	<modules>
 		<module>restlet-parent</module>
 		<module>restlet-tutorial</module>
+		<module>restlet-jaxrs</module>
 	</modules>
 
 </project>
