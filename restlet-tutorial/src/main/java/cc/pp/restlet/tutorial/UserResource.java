@@ -22,7 +22,7 @@ public class UserResource extends ServerResource {
 		//		return "用户的帐号为：" + this.userName;
 		User user = new User();
 		user.setId(123);
-		user.setName("wgybzb");
+		user.setName(userName);
 		return user;
 	}
 
